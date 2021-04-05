@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+    background: #333
+}
+
+body::-webkit-scrollbar-thumb:vertical {
+    background: rgba(240, 210, 173, 1);
+} 
+
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    margin: 0;
+}
+
+#footer {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+    flex-direction: column;
+    
+    padding-top: 1.5%;
+	height: 15vh;
+	width: 100%;
+	float: left;
+    box-sizing: border-box;
+    box-shadow: 16px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    box-sizing: border-box;
+    height: auto;
+    min-height: 70vh;
+}
+
+#content {
+    height: auto;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#search {
+    float:right; 
+    padding: 12.2px 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 15.5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-content p {
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid white; 
+    background: grey;
+}
+
+li {
+    float: left;
+}
+
+.dropdown {
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content, .shopping-button:focus + .dropdown-content {
+    display: block;
+}
+
+/* When Navbar is sticky mode */
+
+.dropdown-content-sticky {
+    display: none;
+    position: fixed;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content-sticky {
+    display: block;
+}
+

@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgba(240, 210, 173, 0.774);
+    background-image: url('../images/form/amphora.png');
+    background-repeat: repeat;
+    background-size: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+.row {
+    margin-left: 0;
+}
+
+/* Header */
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 1%;
+    height: 10vh;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url('../images/banner.jpg');
+    background-color: rgb(254, 247, 241);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    color: whitesmoke;
+}
+
+.form-control {
+    background: rgba(240, 210, 173, 0.9);
+}
+
+label {
+    font-weight: 600;
+}
+
+#images {
+    padding: 3%;
+    width: 100%;
+    height: 75vh;
+}
+ 
+#images img {
+    width: 100%;
+    height: 100%;
+}
+
+#images table {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+@-moz-document url-prefix() {
+    #images table {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
+  }
+
+.noSpace, #images table td {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+input:disabled {
+    background-color: rgba(192,192,192,0.9) !important;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #333;
+    text-align: center;
+    padding: 1%;
+}
+
+footer img {
+    width: 30px;
+    margin: 0.8%;
+}
+
+footer img:hover {
+    width: 35px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(240, 210, 173, 0.774);
+    background-image: url('../images/form/amphora.png');
+    background-repeat: repeat;
+    background-size: 10%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    min-height: 100vh;  
+}
+
+.receipt-body {
+    background-color: rgb(255, 236, 209);
+    border-radius: 3%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.table td {
+    border-top: 1px solid black
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.receipt-wrapper {
+    background: none;
+}
+
+.container {
+    background: none;
+}

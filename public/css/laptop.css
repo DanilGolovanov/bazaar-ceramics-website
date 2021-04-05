@@ -1,0 +1,39 @@
+@media (max-width: 1250px) {
+    h2 {
+        font-size: 1.0em;
+    }
+
+    .new-line {
+        display: inline;
+    }
+
+    .items {
+        width: 200px;
+        height: 140px;
+        border-radius: 10%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .items:hover {
+        width: 190px;
+        height: 130px;
+    }
+
+    #images table {
+        width: 80%;
+    }
+
+    /* Production page */
+
+    .slick-nav img{
+        height: 130px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .slick-large img{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+}

@@ -1,0 +1,77 @@
+body {
+    background-color: rgba(240, 210, 173, 0.774);
+    background-image: url('../../images/form/amphora.png');
+    background-repeat: repeat;
+    background-size: 10%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    height: 100vh; 
+    
+}
+
+.container {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+p {
+    text-align: justify;
+    color: darkblue;
+    font-size: 14px;
+    border: 2px solid darkblue;
+    padding: 5px;
+}
+
+.acknowledge {
+    color: black;
+    font-size: 15px;
+    border: none;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+#cancel {
+    bottom: 0;
+    width: 15%;
+}
+
+#cancel:hover {
+    width: 13%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 110vh;
+}
+
+.signup-image {
+    text-align: center;
+}
+
+.errors {
+    background-color: rgba(255, 236, 209, 0);
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.errors ul, .errors li {
+    background-color: rgba(255, 236, 209, 0);
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: red;
+    box-shadow: none;
+}
+

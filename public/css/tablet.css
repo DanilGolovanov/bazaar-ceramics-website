@@ -1,0 +1,143 @@
+@media (max-width: 900px) {
+    #search {
+        display: none;
+    }
+
+    #content {
+        font-size: 18px;
+    }
+
+    #content span {
+        font-size: 1em;
+    }
+
+    #btn-search {
+        display: none;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 12px;
+    }
+
+    .side-nav h2, .side-nav-mob h2 {
+        display: none;
+    }
+
+    .sticky-side {
+        position: fixed;
+        top: 44px;
+        width: 11%;
+    }
+
+    /* Shopping Cart Dropdown */
+
+    .left-dropdown-shopping-cart {
+        right: 41px;
+        left: auto;
+    }
+
+    .products-wrapper {
+        font-size: 0.9rem;
+    }
+
+    .nav-cart-total {
+        font-size: 1.4rem;
+    }
+
+    .nav-product {
+        padding: 1%;
+    }
+
+    /* Shopping Cart Page */
+
+    .product {
+        font-size: 0.8rem;
+    }
+
+    .shopping-cart-main {
+        width: 80%
+    }
+
+    /* Images */
+
+    #bz-logo {
+        width: 20%;
+        height: auto;
+    }
+
+    #bz-bld {
+        width: 50%;
+        height: auto;
+    }
+
+    #bz-banner {
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .items {
+        width: 90%;
+        height: auto;
+        pointer-events: none;
+    }
+
+    #images table {
+        width: 90%;
+    }
+
+    /* Production page */
+
+    .slick-next {
+        display: none !important;
+    }
+
+    .slick-prev {
+        display: none !important;
+    }
+
+    .slick-nav img{
+        height: 80px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .slick-large img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    /* Login */
+
+    .signin-image img {
+        display: none;
+    }
+
+    /* Image in Registration Form */
+
+    .signup-image img:nth-child(1) {
+        display: none;
+    }
+
+    /* Cancel button */
+
+    #cancel {
+        width: 40px !important;
+    }
+
+    #cancel:hover {
+        width: 35px !important;
+        margin-bottom: 5px !important;
+    }
+
+    #reg {
+        overflow: auto;
+    }
+
+}

@@ -1,0 +1,177 @@
+.shopping-cart-main {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 75px 0;
+    background: rgb(255, 236, 209);
+    border-radius: 30px;
+    width: 60%;
+    min-height: 700px;
+}
+
+.product {
+    height: 50%;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: #333;
+    box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.2);
+    color:  #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    font-size: 1.1rem;
+    padding: 20px;
+}
+
+.cart-images {
+    width: 35%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.cart-info {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    width: 80%;
+
+}
+
+.product-info {
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cart-total {
+    width: 80%;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    border-top: 3px black solid;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.error-message {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.remove-img {
+    width: 5%;
+    margin-right: 3%;
+}
+
+.remove-img:hover {
+    width: 6%;
+    cursor: pointer;
+}
+
+.remove-img:active {
+    width: 5%;
+    cursor: pointer;
+}
+
+/* Form buttons */
+
+.shopping-cart-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cancel-wrapper {
+    width: 4%;
+    margin-top: 5%;
+}
+
+#cancel {
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.cancel-wrapper:hover {
+    cursor: pointer;
+}
+
+.cart-confirm-btn {
+    width: 40%;
+}
+
+.delete-cart-btn {
+    margin-top: 2%;
+    width: 40%;
+}
+
+/* Button styling from Bootstrap */
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40,167,69,.5);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.5);
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+

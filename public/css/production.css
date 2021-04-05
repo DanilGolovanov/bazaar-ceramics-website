@@ -1,0 +1,119 @@
+.slider {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+.slider-back {
+    width: 95%;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 30px;
+    padding: 2% 5% 2% 5%;
+}
+
+.slick-nav img{
+    height: 180px;
+    width: 80%;
+    margin: auto;
+}
+
+.slick-nav img:hover, .slick-large img:hover
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-large img{
+    margin: auto;
+}
+
+.slick-large img{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.top-nav, .side-nav-mob, .topnav-mob {
+    z-index: 2;
+}
+
+button:focus, div, img {
+    outline: none;
+}
+
+/* Arrow buttons */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .slick-next {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    margin: 10px 0 0 10px;
+    width: 50px;
+    height: 50px;
+    border: solid 6px #999;
+    border-radius: 100%;
+    z-index: 1;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    right: -10%;
+    top: 30%;
+  }
+
+  .slick-prev {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    margin: 10px 0 0 10px;
+    width: 50px;
+    height: 50px;
+    border: solid 6px #999;
+    border-radius: 100%;
+    z-index: 1;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    left: -10%;
+    top: 30%;
+    transform: rotate(180deg);
+  }
+
+  .slick-next:before, .slick-next:after, .slick-prev:before, .slick-prev:after {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 10%;
+    top: 41%;
+    left: 55%;
+    background: #999;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .slick-next:after, .slick-prev:after {
+    z-index: 3;
+    top: 59%;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  .slick-next:hover, .slick-prev:hover {
+    border: solid 8px #777;
+  }
+  .slick-next:hover:after, .slick-next:hover:before, .slick-prev:hover:after, .slick-prev:hover:before {
+    background: #777;
+  }
+  .slick-next:active, .slick-prev:active {
+    border: solid 8px #111;
+  }
+  .slick-next:active:after, .slick-next:active:before, .slick-prev:active:after, .slick-prev:active:before {
+    background: #111;
+  }
+
+
+ 
+   
